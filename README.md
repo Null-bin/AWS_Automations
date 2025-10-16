@@ -50,6 +50,7 @@ Antes de começar, você precisa ter o Python 3, a AWS CLI e as suas credenciais
 
 #### 1-Clone o repositório:
 git clone [https://github.com/](https://github.com/)Null-bin/Null-bin.git
+
 cd AWS_Automations
 
 #### 2-(Opcional, mas recomendado) Crie um ambiente virtual:
