@@ -23,7 +23,8 @@ Este projeto nasceu da necessidade de automatizar essa verificação, fornecendo
 
 ## Demonstração
 
-![Exemplo de output do S3 Scanner](https://i.imgur.com/example.png)  **Exemplo de Saída no Terminal:**
+**Exemplo de Saída no Terminal:**
+![Exemplo de output do S3 Scanner](https://i.imgur.com/example.png)  
 
 Iniciando varredura de buckets S3...
 
