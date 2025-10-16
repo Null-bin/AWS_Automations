@@ -14,17 +14,25 @@ Este projeto nasceu da necessidade de automatizar essa verificação, fornecendo
 ## ✨ Funcionalidades (Features)
 
 * **Listagem Automática:** Conecta-se à sua conta AWS e lista todos os buckets S3 existentes.
+* 
 * **Análise de Bloco de Acesso Público (PAB):** Verifica se o *Public Access Block*, a principal camada de proteção moderna da AWS, está corretamente configurado para cada bucket.
+* 
 * **Análise de Listas de Controle de Acesso (ACLs):** Inspeciona as ACLs (método legado) para identificar permissões perigosas concedidas a grupos como `AllUsers` ou `AuthenticatedUsers`.
+* 
 * **Relatório Intuitivo:** Exibe um output claro no terminal, usando cores para diferenciar buckets seguros (🟢) de buckets com potenciais falhas de configuração (🔴).
 
 ## Demonstração
 
 ![Exemplo de output do S3 Scanner](https://i.imgur.com/example.png)  **Exemplo de Saída no Terminal:**
+
 Iniciando varredura de buckets S3...
+
 🟢 BUCKET SEGURO: meu-bucket-privado-corp
+
 🟢 BUCKET SEGURO: logs-da-aplicacao-seguros
+
 🔴 BUCKET PÚBLICO: meu-site-estatico-publico | Motivo: [Alerta: ACL concede acesso a AllUsers]
+
 🔴 BUCKET PÚBLICO: bucket-com-erro-config | Motivo: [Alerta: NENHUM Bloco de Acesso Público configurado]
 
 ### 🛠️ Tecnologias Utilizadas
@@ -38,8 +46,8 @@ AWS CLI: Necessária para a configuração inicial das credenciais de acesso à 
 Antes de começar, você precisa ter o Python 3, a AWS CLI e as suas credenciais da AWS configuradas.
 
 #### 1-Clone o repositório:
-git clone [https://github.com/](https://github.com/)[SEU-USUARIO-GIT]/[NOME-DO-REPOSITORIO].git
-cd [NOME-DO-REPOSITORIO]
+git clone [https://github.com/](https://github.com/)Null-bin/Null-bin.git
+cd AWS_Automations
 
 #### 2-(Opcional, mas recomendado) Crie um ambiente virtual:
 python -m venv venv
