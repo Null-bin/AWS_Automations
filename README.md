@@ -14,11 +14,11 @@ Este projeto nasceu da necessidade de automatizar essa verificação, fornecendo
 ## ✨ Funcionalidades (Features)
 
 * **Listagem Automática:** Conecta-se à sua conta AWS e lista todos os buckets S3 existentes.
-* 
+  
 * **Análise de Bloco de Acesso Público (PAB):** Verifica se o *Public Access Block*, a principal camada de proteção moderna da AWS, está corretamente configurado para cada bucket.
-* 
+  
 * **Análise de Listas de Controle de Acesso (ACLs):** Inspeciona as ACLs (método legado) para identificar permissões perigosas concedidas a grupos como `AllUsers` ou `AuthenticatedUsers`.
-* 
+  
 * **Relatório Intuitivo:** Exibe um output claro no terminal, usando cores para diferenciar buckets seguros (🟢) de buckets com potenciais falhas de configuração (🔴).
 
 ## Demonstração
